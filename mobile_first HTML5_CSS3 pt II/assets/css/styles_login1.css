@@ -22,7 +22,7 @@
 
 body,
 html {
-    background-color: #e7bfa5;
+    background-color: #ff2121ea;
     height: 100vh;
     width: 100vw;
 }
@@ -39,11 +39,11 @@ section#login {
     left: 50%;
     overflow: hidden;
     /*tudo que for fora da borda recorta */
-    background-color: white;
+    background-color: #ffffff;
     width: 250px;
     height: 515px;
     border-radius: 17px;
-    box-shadow: 0px 0px 10px #1c17aa;
+    box-shadow: 0px 0px 10px #02020200;
 
     transition: width .3s, height .3s;
     transition-timing-function: ease;
@@ -52,7 +52,7 @@ section#login {
 
 section#login>div#imagem {
     display: block;
-    background: #4b3c5d url(/assets/php/rbd.png) no-repeat;
+    background:  #ff0044 url(/assets/php/rbd.jpg) no-repeat;
     background-size: cover;
     background-position: left center;
     height: 200px;
@@ -84,7 +84,7 @@ div.campo>span {
 }
 
 div.campo>input {
-    background-color: #e100ff;
+    background-color: #c67b90;
     font-size: 1em;
     padding: 3px;
     width: calc(100% - 44px);
@@ -95,7 +95,7 @@ div.campo>input {
 }
 
 div.campo>input:focus-within {
-    background-color: white;
+    background-color: rgb(255, 0, 255);
 }
 
 form>input[type=submit] {
@@ -103,17 +103,17 @@ form>input[type=submit] {
     font-size: 1em;
     width: 100%;
     height: 40px;
-    background-color: #21203f;
-    color: whitesmoke;
+    background-color: #ff08c1be;
+    color: rgb(0, 0, 0);
     border: none;
     cursor: pointer;
     border-radius: 3px;
 }
 
 form>div.campo {
-    background-color: #4b3c5d;
+    background-color: #ff0000;
     display: block;
-    border: solid 2px #4b3c5d;
+    border: solid 2px #ff0000;
     width: 100%;
     height: 40px;
     border-radius: 7px;
@@ -122,7 +122,7 @@ form>div.campo {
 }
 
 form>input[type=submit]:hover {
-    background-color: #4b3c5d;
+    background-color: #000000;
 
 }
 
@@ -134,8 +134,8 @@ form>a.botao {
     height: 40%;
     padding-top: 7px;
     margin-top: 7px;
-    background-color: #c9a3f8;
-    color: black;
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
     border: 1px solid #21203f;
     border-radius: 3px;
     text-decoration: none;
@@ -143,7 +143,7 @@ form>a.botao {
 }
 
 form>a.botao:hover {
-    background-color: #4b3c5d;
+    background-color: #000000;
     color: white;
 }
 
@@ -155,7 +155,7 @@ form>a.botao>span {
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        background-image: linear-gradient(to top, #c89377, #21203f);
+        background-image: linear-gradient(to top, #ff0000, #ff00b3);
     }
 
     section#login {
@@ -167,7 +167,7 @@ form>a.botao>span {
         float: left;
         width: 30%;
         height: 100%;
-        background: #4b3c5d url(/assets/gundan_main.png) no-repeat;
+        background: #f72525 url(/assets/php/OIP.jpg)no-repeat;
         background-size: cover;
         background-position: right bottom;
 
@@ -197,7 +197,7 @@ form>a.botao>span {
         float: right;
         width: 50%;
         height: 100%;
-        background: #4b3c5d url(/assets/php/rbd.png) no-repeat;
+        background: #7606ff url(/assets/php/rbd.jpg) no-repeat;
         background-size: cover;
         background-position: right center;
         /*  */
