@@ -1,6 +1,5 @@
 @charset "utf-8";
-
-:root{
+root{
     --isa:rgb(255, 67, 67);
     --dudu:white;
     --luka:orange;
@@ -153,6 +152,11 @@ form>a.botao>span {
 }
 
 
+
+
+
+
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-image: linear-gradient(to top, #ff0000, #ff00b3);
@@ -179,6 +183,11 @@ form>a.botao>span {
         width: 70%;
         /*  */
     }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 
